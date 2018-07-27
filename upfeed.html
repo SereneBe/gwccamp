@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="feed.css">
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+<body class="w3-content" style="max-width:1200px">
+
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <img src="" alt="" style="width:100%">
+  </div>
+  <div class="w3-padding-64 w3-large w3-text-white" style="font-weight:bold">
+    <a href="upfeed.html"><class="w3-bar-item w3-button">Events</a>
+    <div>
+    <a href="following.html"><class="w3-bar-item w3-button">Following</a></div>
+    <div>
+    <a href="agencies.html"><class="w3-bar-item w3-button">Top Agencies</a></div>
+    <div>
+    <a href="models.html"><class="w3-bar-item w3-button">Top Models</a></div>
+    <a href="#" class="w3-bar-item w3-button">My Profile</a>
+
+    </a>
+
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">LOGO</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- Top header -->
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left w3-text-white">Joanna Isa</p>
+
+  </header>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+#fshow {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<h2>Opacity with Box</h2>
+<p>Hover over the image to see the effect.</p>
+
+<!-- Image header -->
+<div class="container">
+  <img id="fshow" src="https://zippy.gfycat.com/SkinnyPastelAfricanmolesnake.gif" alt="Fashion Show" style="width:100%">
+  <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+    <div class="text">Couture Fashion Week</div>
+  </div>
+</div>
+
+<div class="w3-container w3-text-grey" >
+  <p></p>
+</div>
+
+<!-- Product grid -->
+<div class="row">
+<div class="column">
+  <img src="https://media.glamour.com/photos/5a6a086ba7c0370afa335b43/master/w_2048,c_limit/GettyImages-909495220_master.jpg" alt="Snow" style="width:95%">
+</div>
+<div class="column">
+  <img src="https://media.glamour.com/photos/5a6a05b41dfb580af1d90958/master/w_2048,c_limit/GettyImages-909108594_master.jpg" alt="Forest" style="width:95%">
+</div>
+<div class="column">
+  <img src="https://media.glamour.com/photos/5a6a086b3a28230aed2e4ede/master/w_2048,c_limit/GettyImages-909495404_master.jpg" alt="Mountains" style="width:95%">
+</div>
+</div>
+<div class="row">
+<div class="column">
+<img src="https://media.glamour.com/photos/5a6a05b7a7c0370afa335b3f/master/w_2048,c_limit/GettyImages-909230386_master.jpg" alt="Snow" style="width:95%">
+</div>
+<div class="column">
+<img src="https://media.glamour.com/photos/5a6a05b5dfbd1e0b82f7671a/master/w_2048,c_limit/GettyImages-909280478_master.jpg" alt="Forest" style="width:95%">
+</div>
+<div class="column">
+<img src="https://media.glamour.com/photos/5a6a05b4d89e2f0b06cbe37d/master/w_2048,c_limit/GettyImages-909108760_master.jpg" alt="Mountains" style="width:95%">
+</div>
+</div>
+
+
+</body>
+</html>

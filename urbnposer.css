@@ -1,0 +1,36 @@
+
+Body{
+    background-image: url("aesthetic.jpg");
+    background-color:lightgray;
+}
+h1 {
+    font-size: 70px;
+}
+h1 {
+    color: violet;
+}
+h2 {
+    color: white;
+}
+    img {
+        max-width: 100%;
+        height: auto;
+}
+
+button{
+  text-align: center;
+  font-size: 30px;
+  color: black
+}
+
+#signup{
+  text-align: center;
+}
+
+#login{
+  text-align: center;
+}
+
+#container{
+  text-align: center;
+}
